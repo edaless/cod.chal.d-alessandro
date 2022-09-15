@@ -1,0 +1,94 @@
+body{
+  background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    /* specifiche dell'immagine in background */
+    color: white;
+    /* tutte le scritte senza maggiori istruzioni saranno bianche. */
+}
+
+.finestra{
+  background-color: rgba(0,0,0,0.5);
+  width:70%;
+  margin-left: 15%;
+  border-radius: 10px;
+  /* questo è il riquadro nero con un'opacità del 50% */
+}
+
+.logo{
+  width: 15%;
+  padding-left: 43%;
+}
+
+.slogan{
+  padding-left: 37%;
+  color: lime;
+font-family: "quicksand", sans-serif;
+}
+
+.interazione{
+    margin-left: 10%;
+    margin-right: 10%;
+    /* queste sono le specifiche del riquadro in cui ci sono tutti i
+    tasti e checkboxes, invisibile ma più stretto della finestra nera. */
+}
+
+.barra-tasti{
+  background-color: lime;
+  border-radius: 3px;
+  height: 32px;
+}
+
+.tasti {
+margin-left: 28%;
+padding-top:0.8%;
+
+}
+
+
+
+.monopattino{
+  font-family: "quicksand", sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+input[type="checkbox"]{
+  height: 8px;
+  /* specifiche della dimensione di tutti i checkboxes */
+}
+
+
+.dettagli-monopattino{
+  font-size:0.7em;
+  color: rgba(255,255,255,0.5);
+  /* l'indirizzo e la distanza sono in bianco opaco al 50% */
+}
+
+
+/* le seguenti sono le specifiche delle tre barre colorate che
+rappresentano lo stato della batteria */
+.carica-media{
+  background-color: orange;
+  color: orange;
+  border-radius: 2px;
+  margin-right: 60%;
+
+}
+
+.carica-massima{
+  background-color: lime;
+  color: lime;
+  border-radius: 2px;
+  margin-right: 37%;
+
+}
+
+.carica-minima{
+  background-color: red;
+  color: red;
+  border-radius: 2px;
+  margin-right: 80%;
+
+}
